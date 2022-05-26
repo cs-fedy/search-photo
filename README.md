@@ -1,7 +1,7 @@
 # Unsplash search app:
 
 I'm creating a photo search app using unsplash api and `React.js`.
-- Demo Link: [demo here](https://unsplash-search-app.netlify.app)
+- Demo Link: [demo here](https://unsplash-search-app-cs.netlify.app)
 
 **P.S: [docker](https://www.docker.com/) is required**
 

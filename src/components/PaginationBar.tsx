@@ -4,10 +4,7 @@ import { useUnsplash } from '../lib/UnsplashContext'
 export default function PaginationBar() {
   const unsplash = useUnsplash()
 
-  const handleNextPage = () => {
-    console.log('done')
-    unsplash.goToNextPage()
-  }
+  const handleNextPage = () => unsplash.goToNextPage()
   const handlePrevPage = () => unsplash.goToPreviousPage()
 
   return (

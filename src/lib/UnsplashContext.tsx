@@ -36,10 +36,7 @@ export default function UnsplashProvider({ children }: any) {
   })
 
   useEffect(() => {
-    fetchData().then((data) => {
-      setPhotos(data)
-      console.log(data)
-    })
+    fetchData().then((data) => setPhotos(data))
   }, [])
 
   useEffect(() => {
@@ -55,7 +52,6 @@ export default function UnsplashProvider({ children }: any) {
   const search = (term: string) => {
     setTerm(term)
     searchPhotos(term).then((data) => {
-      console.log(data)
       setPagination({
         ...pagination,
         isPagination: true,
